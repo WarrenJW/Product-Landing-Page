@@ -11,8 +11,10 @@
     
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #1F2937;
     font-size: 24px;
+    font-family: 'Roboto', sans-serif;
     color: #F9FAF8;
     margin: 1px;
     padding-left: 15px;
@@ -22,10 +24,37 @@
 
     font-size: 18px;
     color: #E5E7EB;
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 500px;
+
     
     
 }
 
 .head-links {
     align-content: flex-end;
+    
+}
+
+a {
+    text-decoration:none;
+}
+    a:link {
+        color: #E5E7EB;
+        
+      }
+      a:visited {
+        color: #E5E7EB;
+        
+      }
+      a:hover {
+        color: #2d8653;
+        border-bottom: 1px solid #000099;
+      }
+    
 }
