@@ -2,15 +2,30 @@
 .body-container {
     display: flex;
     flex-direction: column;
+    margin: 5px;
+    padding: 5px;
 
 }
 
 .header {
     
     display: flex;
+    align-items: center;
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
+    margin: 1px;
+    padding-left: 15px;
+}
 
+    ul {
 
+    font-size: 18px;
+    color: #E5E7EB;
+    
+    
+}
+
+.head-links {
+    align-content: flex-end;
 }
