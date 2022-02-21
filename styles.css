@@ -1,3 +1,7 @@
+html {
+    width: 100%;
+}
+
 
 .body-container {
     display: flex;
@@ -16,7 +20,7 @@
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     color: #F9FAF8;
-    margin: 1px;
+    margin: 0px;
     padding-left: 15px;
 }
 
@@ -53,8 +57,23 @@ a {
         
       }
       a:hover {
-        color: #2d8653;
+        color: #00bb83;
         border-bottom: 1px solid #000099;
       }
     
-}
+      .container-1 {
+          min-height: 200px;
+          color: #F9FAF8;
+          background-color: #1F2937;
+          margin: 0px;
+          padding: 12px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: bolder;
+          font-size: 18px;
+          display: flex;
+          justify-content: space-between;
+      }
+
+      #welcome-text {
+          font-size: 99px;
+      }
