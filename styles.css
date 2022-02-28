@@ -106,6 +106,7 @@ a {
           padding-bottom: 20px;
           color: #1F2937;
           font-family: 'Roboto', sans-serif;
+          
 
             
         }
@@ -143,7 +144,16 @@ a {
             padding-top: 24px;
             padding-bottom: 24px;
             margin: 0px;
+            min-height: 200px;
         } 
+
+        .blue-box {
+            background-color: royalblue;
+            width: 800px;
+            height: 160px;
+            
+            align-content: center;
+        }
 
         
 
