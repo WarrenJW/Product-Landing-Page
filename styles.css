@@ -177,9 +177,16 @@ a {
             border-radius: 12px;
             padding: 4px 8px;
             
-            
-            
-            
+            }
+
+        .button-2 a:hover {
+            color: #00bb83;
+            border-bottom: 1px solid #000099;
+        }
+
+        .button-1 a:hover {
+            color: #00bb83;
+            border-bottom: 1px solid #000099;
         }
 
         .footer {
