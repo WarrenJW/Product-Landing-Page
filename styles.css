@@ -176,7 +176,7 @@ a {
             border: 2px solid #F9FAF8;
             border-radius: 12px;
             padding: 4px 8px;
-            
+            float: right;
             }
 
         .button-2 a:hover {
